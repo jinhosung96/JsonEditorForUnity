@@ -1,4 +1,4 @@
-namespace Mine.Code.App.JsonSO
+namespace JHS.Library.JsonEditor.Editor
 {
     public enum JsonPropertyType
     {

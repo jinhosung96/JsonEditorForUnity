@@ -2,8 +2,6 @@
 
 A Unity library that provides a custom inspector for easier JSON file editing and management.
 
-*한국어 버전은 [README.md](README.md)에서 확인하실 수 있습니다*
-
 ## Overview
 
 JsonEditor is a library that makes JSON file management and modification easier using Unity's built-in serialization system. It provides a custom inspector interface that allows for intuitive editing of JSON data while maintaining reference relationships.
@@ -22,6 +20,33 @@ JsonEditor is a library that makes JSON file management and modification easier 
 
 ### Limitations
 - Cannot represent JSON files with more than 10 depth levels in Unity
+
+## Installation
+
+### Via Package Manager
+
+For Unity 2019.3.4f1 or higher, you can install the package directly through the Package Manager using a Git URL.
+
+1. Open Package Manager (Window > Package Manager)
+2. Click '+' button and select "Add package from git URL"
+3. Enter the following URL:
+```
+https://github.com/jinhosung96/JsonEditorForUnity.git
+```
+
+Alternatively, you can add it directly to your `Packages/manifest.json`:
+```json
+{
+  "dependencies": {
+    "com.jhs-library.auto-path-generator": "https://github.com/jinhosung96/JsonEditorForUnity.git"
+  }
+}
+```
+
+To install a specific version, add the #{version} tag to the URL:
+```
+https://github.com/jinhosung96/JsonEditorForUnity.git#1.0.0
+```
 
 ## Supported Data Types
 

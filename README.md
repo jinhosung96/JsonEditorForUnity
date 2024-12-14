@@ -23,6 +23,33 @@ JsonEditor는 Unity의 자체 직렬화 시스템을 활용하여 JSON 파일 �
 ### 제약사항
 - 유니티 상에서 10depth가 넘는 JSON 파일은 표현할 수 없습니다.
 
+## 설치 방법
+
+### Package Manager를 통한 설치
+
+Unity 2019.3.4f1 이상 버전에서는 Package Manager에서 직접 Git URL을 통해 설치할 수 있습니다.
+
+1. Package Manager 창을 엽니다 (Window > Package Manager)
+2. '+' 버튼을 클릭하고 "Add package from git URL"을 선택합니다
+3. 다음 URL을 입력합니다:
+```
+https://github.com/jinhosung96/JsonEditorForUnity.git
+```
+
+또는 `Packages/manifest.json` 파일에 직접 추가할 수 있습니다:
+```json
+{
+  "dependencies": {
+    "com.jhs-library.auto-path-generator": "https://github.com/jinhosung96/JsonEditorForUnity.git"
+  }
+}
+```
+
+특정 버전을 설치하려면 URL 뒤에 #{version} 태그를 추가하면 됩니다:
+```
+https://github.com/jinhosung96/JsonEditorForUnity.git#1.0.0
+```
+
 ## 지원하는 데이터 타입
 
 ### JsonObject

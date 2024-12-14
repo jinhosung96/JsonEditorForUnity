@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MyAssets.Scripts.App.JsonEditor.Editor.JsonPresetScriptableObjectcs
+namespace JHS.Library.JsonEditor.Editor
 {
     [CreateAssetMenu(fileName = "JsonScriptableObject", menuName = "ScriptableObjects/JsonScriptableObject", order = 1)]
     public class JsonScriptableObject : ScriptableObject
